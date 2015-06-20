@@ -39,8 +39,8 @@ trainy <- read.table("UCI HAR Dataset/train/y_train.txt")
 names(trainy) <- c("AID")
 ### STEP 3. Uses descriptive activity names to name the activities in the data set
 trainy$ACTIVITY[trainy$AID == 1] <- "WALKING"
-trainy$ACTIVITY[trainy$AID == 2] <- "WALKING_UPSTAIRS"
-trainy$ACTIVITY[trainy$AID == 3] <- "WALKING_DOWNSTAIRS"
+trainy$ACTIVITY[trainy$AID == 2] <- "WALKING UPSTAIRS"
+trainy$ACTIVITY[trainy$AID == 3] <- "WALKING DOWNSTAIRS"
 trainy$ACTIVITY[trainy$AID == 4] <- "SITTING"
 trainy$ACTIVITY[trainy$AID == 5] <- "STANDING"
 trainy$ACTIVITY[trainy$AID == 6] <- "LAYING"
@@ -59,8 +59,8 @@ testy <- read.table("UCI HAR Dataset/test/y_test.txt")
 names(testy) <- c("AID")
 ### STEP 3. Uses descriptive activity names to name the activities in the data set
 testy$ACTIVITY[testy$AID == 1] <- "WALKING"
-testy$ACTIVITY[testy$AID == 2] <- "WALKING_UPSTAIRS"
-testy$ACTIVITY[testy$AID == 3] <- "WALKING_DOWNSTAIRS"
+testy$ACTIVITY[testy$AID == 2] <- "WALKING UPSTAIRS"
+testy$ACTIVITY[testy$AID == 3] <- "WALKING DOWNSTAIRS"
 testy$ACTIVITY[testy$AID == 4] <- "SITTING"
 testy$ACTIVITY[testy$AID == 5] <- "STANDING"
 testy$ACTIVITY[testy$AID == 6] <- "LAYING"
