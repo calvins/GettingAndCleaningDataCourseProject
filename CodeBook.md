@@ -82,100 +82,195 @@ tBodyGyroJerkMean
 
 ## Transformations
 -For Activity names, replaced underscore with space in Activities Walking Upstairs and Walking Downstairs.
+
 -Removed hyphens and parentheses in feature names.
+
 -Keep feature names in upper and lower case as a personal preference.
+
 -Replaced BodyBody with Body in feature names with the typo.
+
 -Run make.names on feature names to make them valid R variable names.
+
 -Add mean to the beginning of feature names in the tidy data set since they are now "means of means"
+
 
 ## The Tidy Data Set
 By grepping feature names for mean or std in upper or lower case, I found 86 features to include in the tidy data set.
 I list them below with their modified names since they are now "means of means."
+
 SID integer subject ID
+
 ACTIVITY character Descriptive name of the activity
+
 meantBodyAccmeanX numeric
+
 meantBodyAccmeanY numeric
+
 meantBodyAccmeanZ numeric
+
 meantGravityAccmeanX numeric
+
 meantGravityAccmeanY numeric
+
 meantGravityAccmeanZ numeric
+
 meantBodyAccJerkmeanX numeric
+
 meantBodyAccJerkmeanY numeric
+
 meantBodyAccJerkmeanZ numeric
+
 meantBodyGyromeanX numeric
+
 meantBodyGyromeanY numeric
+
 meantBodyGyromeanZ numeric
+
 meantBodyGyroJerkmeanX numeric
+
 meantBodyGyroJerkmeanY numeric
+
 meantBodyGyroJerkmeanZ numeric
+
 meantBodyAccMagmean numeric
+
 meantGravityAccMagmean numeric
+
 meantBodyAccJerkMagmean numeric
+
 meantBodyGyroMagmean numeric
+
 meantBodyGyroJerkMagmean numeric
+
 meanfBodyAccmeanX numeric
+
 meanfBodyAccmeanY numeric
+
 meanfBodyAccmeanZ numeric
+
 meanfBodyAccmeanFreqX numeric
+
 meanfBodyAccmeanFreqY numeric
+
 meanfBodyAccmeanFreqZ numeric
+
 meanfBodyAccJerkmeanX numeric
+
 meanfBodyAccJerkmeanY numeric
+
 meanfBodyAccJerkmeanZ numeric
+
 meanfBodyAccJerkmeanFreqX numeric
+
 meanfBodyAccJerkmeanFreqY numeric
+
 meanfBodyAccJerkmeanFreqZ numeric
+
 meanfBodyGyromeanX numeric
+
 meanfBodyGyromeanY numeric
+
 meanfBodyGyromeanZ numeric
+
 meanfBodyGyromeanFreqX numeric
+
 meanfBodyGyromeanFreqY numeric
+
 meanfBodyGyromeanFreqZ numeric
+
 meanfBodyAccMagmean numeric
+
 meanfBodyAccMagmeanFreq numeric
+
 meanfBodyAccJerkMagmean numeric
+
 meanfBodyAccJerkMagmeanFreq numeric
+
 meanfBodyGyroMagmean numeric
+
 meanfBodyGyroMagmeanFreq numeric
+
 meanfBodyGyroJerkMagmean numeric
+
 meanfBodyGyroJerkMagmeanFreq numeric
+
 meanangletBodyAccMean.gravity numeric
+
 meanangletBodyAccJerkMean.gravityMean numeric
+
 meanangletBodyGyroMean.gravityMean numeric
+
 meanangletBodyGyroJerkMean.gravityMean numeric
+
 meanangleX.gravityMean numeric
+
 meanangleY.gravityMean numeric
+
 meanangleZ.gravityMean numeric
+
 meantBodyAccstdX numeric
+
 meantBodyAccstdY numeric
+
 meantBodyAccstdZ numeric
+
 meantGravityAccstdX numeric
+
 meantGravityAccstdY numeric
+
 meantGravityAccstdZ numeric
+
 meantBodyAccJerkstdX numeric
+
 meantBodyAccJerkstdY numeric
+
 meantBodyAccJerkstdZ numeric
+
 meantBodyGyrostdX numeric
+
 meantBodyGyrostdY numeric
+
 meantBodyGyrostdZ numeric
+
 meantBodyGyroJerkstdX numeric
+
 meantBodyGyroJerkstdY numeric
+
 meantBodyGyroJerkstdZ numeric
+
 meantBodyAccMagstd numeric
+
 meantGravityAccMagstd numeric
+
 meantBodyAccJerkMagstd numeric
+
 meantBodyGyroMagstd numeric
+
 meantBodyGyroJerkMagstd numeric
+
 meanfBodyAccstdX numeric
+
 meanfBodyAccstdY numeric
+
 meanfBodyAccstdZ numeric
+
 meanfBodyAccJerkstdX numeric
+
 meanfBodyAccJerkstdY numeric
+
 meanfBodyAccJerkstdZ numeric
+
 meanfBodyGyrostdX numeric
+
 meanfBodyGyrostdY numeric
+
 meanfBodyGyrostdZ numeric
+
 meanfBodyAccMagstd numeric
+
 meanfBodyAccJerkMagstd numeric
+
 meanfBodyGyroMagstd numeric
+
 meanfBodyGyroJerkMagstd numeric
+
